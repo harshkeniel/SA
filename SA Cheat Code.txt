@@ -1,0 +1,63 @@
+---------------SA Practicals---------------
+
+---------------EXP 3---------------
+files-->new-->dynamic web project--> CREATE file{test1Project}-->next-->finish
+
+--> select server (apache tomcat server 8.5)--> next --> select folder of apache tomcat server 8.5 by browsing -->
+--> next--> move the test1Project to the right --> finish -->
+--> right click on the test1Poject --> new --> class --> CREATE class{addClass} --> finish
+--> copypaste the code of the addition --> save the code ---> start the server [start, syncornized]
+--> right click on addClass --> new --> other --> web services [web services] 
+--> next --> set the bar up --> next --> next --> launch --> finish
+--> click on the add(int, int) --> invoke
+
+---------------EXP 4---------------
+files --> new --> project --> java project[java project] --> next --> RMI_Demo2 --> next --> finish
+
+--> right click on the RMI_Demo2 --> new --> interface --> IHello --> finish
+--> copy the code and paste --> save --> right click on the IHello --> show in local terminal
+--> javac IHello.java --> enter 
+
+--> right click on the RMI_Demo2 --> class --> HelloImpl --> finish
+--> copy the code and paste --> save --> right click on the HelloImpl --> show in local terminal
+--> javac HelloImpl.java --> enter 
+
+--> right click on the RMI_Demo2 --> class --> HelloServer --> finish
+--> copy the code and paste --> save --> right click on the HelloServer --> show in local terminal
+--> javac HelloServer.java --> enter 
+
+--> right click on the RMI_Demo2 --> class --> HelloClient --> finish
+--> copy the code and paste --> save --> right click on the HelloClient --> show in local terminal
+--> javac HelloClient.java --> enter 
+
+--In the local terminal--
+--> start remiregistry --> java HelloClient.java
+
+
+---------------EXP 5---------------
+files --> new --> project --> java project[java project] --> next --> middleware --> next --> finish
+
+--> right click on the middleware --> new --> class --> Server --> finish
+--> copy the code and paste --> save 
+
+--> right click on the middleware --> new --> class --> interfaceCalculator --> finish
+--> copy the code and paste --> save 
+
+--> right click on the middleware --> new --> class --> Client --> finish
+--> copy the code and paste --> save 
+
+the after this we have to run the client.java file from the top by clicking the play button 
+
+---------------EXP 6---------------
+files --> new --> projects --> java project[java project] --> next --> wrapper --> next --> finish
+
+--> right click on the wrapper --> new --> class --> Sender --> finish
+--> copy the code and paste --> save 
+
+--> right click on the wrapper --> new --> class --> Receiver --> finish
+--> copy the code and paste --> save 
+
+run receiver 
+run sender
+
+type a message from sender 
