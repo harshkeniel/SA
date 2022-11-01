@@ -1,6 +1,6 @@
 ---------------SA Practicals---------------
 
----------------EXP 3---------------
+---------------EXP 3 (Web service)---------------
 files-->new-->dynamic web project--> CREATE file{test1Project}-->next-->finish
 
 --> select server (apache tomcat server 8.5)--> next --> select folder of apache tomcat server 8.5 by browsing -->
@@ -11,7 +11,7 @@ files-->new-->dynamic web project--> CREATE file{test1Project}-->next-->finish
 --> next --> set the bar up --> next --> next --> launch --> finish
 --> click on the add(int, int) --> invoke
 
----------------EXP 4---------------
+---------------EXP 4 (RMI)---------------
 files --> new --> project --> java project[java project] --> next --> RMI_Demo2 --> next --> finish
 
 --> right click on the RMI_Demo2 --> new --> interface --> IHello --> finish
@@ -34,7 +34,7 @@ files --> new --> project --> java project[java project] --> next --> RMI_Demo2 
 --> start remiregistry --> java HelloClient.java
 
 
----------------EXP 5---------------
+---------------EXP 5 (Middleware)---------------
 files --> new --> project --> java project[java project] --> next --> middleware --> next --> finish
 
 --> right click on the middleware --> new --> class --> Server --> finish
@@ -48,7 +48,7 @@ files --> new --> project --> java project[java project] --> next --> middleware
 
 the after this we have to run the client.java file from the top by clicking the play button 
 
----------------EXP 6---------------
+---------------EXP 6 (wrapper)---------------
 files --> new --> projects --> java project[java project] --> next --> wrapper --> next --> finish
 
 --> right click on the wrapper --> new --> class --> Sender --> finish
